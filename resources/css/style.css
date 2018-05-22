@@ -21,6 +21,9 @@ article {
 /* header */
 .logo-container {
   background-color: black;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
 }
 
 .logo-items {
@@ -70,4 +73,51 @@ article {
 
 .banner-text h1 {
   font-size: 2rem;
+}
+/* nav bar, products, location, hours */
+/* nav bar */
+
+.nav-container {
+  background-color: firebrick;
+}
+
+.nav ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 0.75rem 0;
+}
+
+.nav span a {
+  color: white;
+  text-decoration: none;
+}
+/* Product section */
+.photo-grid-container {
+  display: flex;
+  justify-content: center;
+  width: 960px;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 95%;
+}
+
+.photo-grid-item {
+  width: 30%;
+  border: 4px solid black;
+}
+
+.image-section {
+  height: 9rem;
+  width: 100%;
+  margin: 2rem 0;
+}
+
+.caption {
+  text-align: center;
+  background-color: black;
+  color: white;
 }
